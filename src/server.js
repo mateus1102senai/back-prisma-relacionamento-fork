@@ -7,6 +7,7 @@ import collectionRouter from "./routes/collectionRoutes.js";
 import cardRouter from "./routes/cardRoutes.js";
 import authRouter from "./routes/auth.routes.js"; // Importa as rotas de autenticação
 
+
 config(); // Carrega variáveis de ambiente do arquivo .env
 const port = process.env.PORT || 4001; // Define a porta do servidor
 
